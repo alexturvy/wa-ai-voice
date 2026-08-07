@@ -167,9 +167,10 @@ State these when they bear on what you report:
 - `references/watershed-ece-voice.md` — **the house voice for ECE work product. Load first, always, for any Watershed piece.** Posture (insight not summary, advisor not observer), structure rules (BLUF, appendix), the cut-on-sight list, and the filler-vs-terms-of-art lexicon split.
 - `references/exemplars.md` — **published Watershed deliverables that hit the bar.** The source of every observed rate in the house voice Part 3, and the positive moves worth copying. Read before auditing; the anti-examples set a floor, these set the target.
 - `references/anti-examples.md` — observed failures in real Watershed work product, quoted and diagnosed. Anti-anchors for calibration; read before auditing a deck.
+- `references/audience-archetypes.md` — the five readers Watershed writes for: what each cares about, what they are anxious about, what framing lands and backfires, and the framing-density and editorial-latitude gradients. The substance behind failure #13.
 - `references/tells.md` — the tell catalog: vocabulary, structure, formatting, stance; cluster rules; default caps. The fast subset.
 - `references/master-list.md` — the full consolidated catalog: tells superset + voice-binding rules + refusal gates + audit-instrument honesty rules + edit-scope carve-outs. Load this for any full audit.
-- `references/audit-rubrics.md` — per-format gates: client memo, board deck, long-form, docs/README, email. Plus the document-level pass and the findings list.
+- `references/audit-rubrics.md` — per-deliverable gates for the five Watershed types (culminating report, running agenda deck, stakeholder facilitation deck, planning tool, implementation support tool), plus client email, the document-level pass, and the findings list. Each type sets its own bar.
 - `references/generation.md` — verbalized-sampling recipes, candidate-variation axes, persona binding.
 - `references/voice-binding.md` — building a voice card from samples in 10 minutes; the replacement protocol; which irregularities to preserve.
 

@@ -44,7 +44,8 @@ wa-ai-voice/
     master-list.md              # full catalog: tells, binding, gates, audit honesty, edit scope
     exemplars.md                # published deliverables that hit the bar — source of the observed rates
     anti-examples.md            # observed failures, quoted and diagnosed (AE-1..AE-3)
-    audit-rubrics.md            # per-format gates + document-level pass + findings list
+    audience-archetypes.md      # the five readers: what lands, what backfires, framing density
+    audit-rubrics.md            # per-deliverable gates (the five types) + document-level pass
     generation.md               # candidate generation, escaping the mode
     voice-binding.md            # voice cards from samples; the replacement protocol
 wa-ai-voice-audit/
@@ -77,9 +78,7 @@ Three additions came out of the corpus rather than the spec, and they are the on
 5. **This is the automatic floor, not the coaching pass.** An internal review skill already covers deliberate, phased coaching. These two are meant to sit underneath it, not replace it — which only works if the pattern names match. See item 2.
 6. **Trigger collision with `deslop`.** The existing `deslop` skill fires on "remove the slop" / "does this read like AI"; `wa-ai-voice-audit` on "find the slop in this" / "audit this for slop". Either disambiguate, or fold `deslop`'s deterministic Python detector in as a pre-pass — this method has no deterministic counter, which is a real gap.
 7. **Test on a live draft before firm-wide rollout.** Every calibration so far is retrospective. Run it on two or three drafts in flight with a small group, and record the accepted-versus-declined flag ratio — that ratio is the signal for whether to widen distribution. Retrospective calibration cannot surface the failure that matters most here, which is a flag an analyst rejects.
-8. **Retitle the format rubrics to the firm's deliverable taxonomy.** They currently read memo / deck / long-form / docs / email. The work actually shipped is culminating reports, implementation support tools, planning tools, running agenda decks, and stakeholder facilitation decks. Needs a decision on which checks port where.
-9. **Decide what to cut from the general catalog.** `master-list.md` still carries rules built for social posting — reply batches, thread scaffolding, caption grammar, trailing particles, punchline placement, profanity retention. Some encode a move that survives translation to a memo; most do not, and at least two contradict the house register outright.
-10. **Confirm the exemplar permissions.** `exemplars.md` names client engagements and quotes their deliverables at length. Public availability of those reports and permission for this reuse are different questions.
+8. **Confirm the exemplar permissions.** `exemplars.md` names client engagements and quotes their deliverables at length. Public availability of those reports and permission for this reuse are different questions.
 
 ## Maintaining this repo
 

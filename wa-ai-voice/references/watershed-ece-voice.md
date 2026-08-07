@@ -136,7 +136,7 @@ Before drafting, name **which reader** and **what they should know, feel, or do 
 > **Fails:** A deck section addressed to "providers and families" generally, promising benefits neither audience could act on.
 > **Works:** A plan that separates business leaders, school system leadership, local government, and philanthropic leaders, and says what each should do differently.
 
-If the draft cannot name its reader, that is the first finding. Detailed guidance on what each archetype cares about and what backfires is internal and not reproduced here.
+If the draft cannot name its reader, that is the first finding. **What each reader cares about, is anxious about, and how framing lands or backfires for each: `audience-archetypes.md`.** Two gradients matter most — how much framing a reader needs, and how much edge the work can carry. Both shift by archetype, and getting them wrong is a finding even when the prose is clean.
 
 ## 14. Most supporting detail belongs in an appendix
 
