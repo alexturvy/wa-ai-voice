@@ -33,20 +33,20 @@ Open Claude Code and ask it to draft or tighten any Watershed deliverable. `wa-a
 
 ### A note for anyone reading the audit output
 
-The skill judges **how a draft reads, not whether it is true.** It cannot tell you that a citation is stale, that a proposed process duplicates one that already exists, or that the draft has quietly taken a position the team never agreed to. A clean score means clean prose. Every fact, number, citation, and asserted position still needs someone who knows the file.
+The skill judges **how a draft reads, not whether it is true.** It cannot tell you that a citation is stale, that a proposed process duplicates one that already exists, or that the draft has quietly taken a position the team never agreed to. A clean audit means clean prose. Every fact, number, citation, and asserted position still needs someone who knows the file.
 
 ## Layout
 
 ```
 wa-ai-voice/
-  SKILL.md                      # the method: FEED / GENERATE / GATE / FIT + 5Q scoring
+  SKILL.md                      # the method: FEED / GENERATE / GATE / FIT + the 5-question audit
   references/
     watershed-ece-voice.md      # THE HOUSE VOICE — posture, structure, lexicon split
     tells.md                    # fast tell catalog + default caps
     master-list.md              # full catalog: tells, binding, gates, audit honesty, edit scope
     exemplars.md                # published deliverables that hit the bar — source of the observed rates
     anti-examples.md            # observed failures, quoted and diagnosed (AE-1..AE-3)
-    audit-rubrics.md            # per-format gates (memo, deck, long-form, docs, email) + score sheet
+    audit-rubrics.md            # per-format gates + document-level pass + findings list
     generation.md               # candidate generation, escaping the mode
     voice-binding.md            # voice cards from samples; the replacement protocol
 wa-ai-voice-audit/
@@ -74,12 +74,14 @@ And the 30%:
 | Insight, not summary | **INSIGHT**, the fifth audit question — a unit that names a thing and stops fails; it must say why it matters, what caused it, where it leads, or what to do |
 | Influencer / advisor, not observer | house voice §1; the researcher reflex is named as the most common way this fails |
 | Precision of language | house voice §1 + the filler lexicon; INTERCHANGEABLE |
-| Audience awareness | promoted from prose to a required input — the contract's "one job," now mandatory for work product and a scored item in the memo rubric |
+| Audience awareness | promoted from prose to a required input — the contract's "one job," now mandatory for work product and a checked item in the memo rubric |
 | Detail belongs in an appendix | house voice §2; memo rubric, with the density rule overridden so the thinner body isn't flagged |
 
 Three failures derived from the observed corpus and adopted into the rubric (`anti-examples.md` §Derived rules): specifics deleted by the polishing pass; comprehensiveness used to avoid committing; and **the apparatus tell** — filled matrices, ID schemes, pinpoint citations from approximate sources, caveat appendices. The apparatus tell is invisible to the unit-by-unit audit, so it lives in the new document-level pass in `audit-rubrics.md`.
 
-**Scope boundary, stated in every report:** the skill judges how a draft reads, never whether it is true. AE-3 passes the audit and a domain reviewer found four factual errors in it. A clean score means clean prose, not a checked document.
+**Scope boundary, stated in every report:** the skill judges how a draft reads, never whether it is true. AE-3 passes the audit and a domain reviewer found four factual errors in it. A clean audit means clean prose, not a checked document.
+
+**No numeric score, deliberately.** An earlier version summed weighted categories to a 0–10 scale with a "ship at ≤2" gate. That was this skill's own apparatus tell — its `master-list.md` PART D holds that absolute scores don't replicate and prescribes counted failures instead. It now reports findings by category and one of three verdicts: ship, fix these, or rewrite the argument.
 
 ## Open items
 
