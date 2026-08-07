@@ -153,7 +153,7 @@ Watch for these specifically, and flag them for a human rather than fixing them:
 - `references/anti-examples.md` — observed failures in real Watershed work product, quoted and diagnosed. Anti-anchors for calibration; read before auditing a deck.
 - `references/tells.md` — the tell catalog: vocabulary, structure, formatting, stance; cluster rules; default caps. The fast subset.
 - `references/master-list.md` — the full consolidated catalog: tells superset + voice-binding rules + refusal gates + audit-instrument honesty rules + edit-scope carve-outs. Load this for any full audit.
-- `references/audit-rubrics.md` — per-format gates: post/thread, long-form, docs/README, email/DM. Plus the full score sheet.
+- `references/audit-rubrics.md` — per-format gates: client memo, board deck, long-form, docs/README, email. Plus the document-level pass and the findings list.
 - `references/generation.md` — verbalized-sampling recipes, candidate-variation axes, persona binding.
 - `references/voice-binding.md` — building a voice card from samples in 10 minutes; the replacement protocol; which irregularities to preserve.
 
