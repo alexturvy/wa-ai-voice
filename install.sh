@@ -6,6 +6,11 @@ set -euo pipefail
 
 SRC="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DEST="${CLAUDE_SKILLS_DIR:-$HOME/.claude/skills}"
+case "$DEST" in
+  /*) ;;
+  *) echo "error: CLAUDE_SKILLS_DIR must be an absolute path (got: $DEST)" >&2; exit 1 ;;
+esac
+echo "Skills directory: $DEST"
 SKILLS=(wa-ai-voice wa-ai-voice-audit)
 
 if [[ "${1:-}" == "--uninstall" ]]; then

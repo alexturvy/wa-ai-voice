@@ -149,7 +149,7 @@ This is the superset. `tells.md` remains the fast catalog; this file is what a f
 
 - "Fix the tone" means phrasing only, never substance. Protect the author's raw phrasing; it is often better than the polished rewrite.
 - Deliver 2-3 variants and name your pick with one line of why. Don't hand over one polished thing.
-- Legitimate-generic carve-out: some slots are maintenance by design (acknowledgements, thank-you upkeep). Don't force a distinctive line into them, don't chase a banger on every unit. INTERCHANGEABLE does not apply to these slots.
+- Legitimate-generic carve-out: some slots are maintenance by design (acknowledgements, thank-you upkeep). Don't force a distinctive line into them, don't chase a banger on every unit. INTERCHANGEABLE and INSIGHT do not apply to these slots.
 - The screenshot-line test for pieces that ARE meant to land: every banger has one line someone wants to capture. If there isn't one, find or build it.
 - Protected shapes (from tells.md) still stand: the author's signature moves pattern-match tells and are never flagged. The distinction: a tell restates or pads; a signature lands somewhere else.
 - Max two fix passes. Sanding past that is the new tell. Deletion-to-neutral is half a fix; every replacement moves toward the author's words.

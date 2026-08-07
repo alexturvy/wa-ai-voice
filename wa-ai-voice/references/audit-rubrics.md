@@ -26,7 +26,7 @@ The five gates work on units and will clear a document whose failure is structur
 
 1. **Where does this document admit it doesn't know something?** If there is no such place, the gaps were hidden rather than closed. A filled matrix with no "unknown" cell, a complete list of options with nothing marked uncertain, a taxonomy with no ragged edge — each was completed rather than researched. Real analysis is lumpy.
 
-   *Worked example — the target:* PE-2 runs four hero numbers across the top of its opening section. Three are `-$2.6B`, `60%`, `43rd`. The fourth is `?`, labeled *"Status of kindergarten readiness for Tennessee children. Though a critical metric, Tennessee has no consistent way of evaluating or tracking kindergarten readiness."* The gap gets the same visual weight as the $2.6 billion and becomes an argument for the recommendation. Compare AE-3, which presented a complete architecture in the body and put five caveats in Appendix B. Promote the unknown; don't bury it.
+   *Worked example — the target:* PE-2 runs four hero numbers across the top of its opening section. Three are `-$2.6B`, `60%`, `43rd`. The fourth is `?`, labeled *"Status of kindergarten readiness for Tennessee children. Though a critical metric, Tennessee has no consistent way of evaluating or tracking kindergarten readiness."* The gap gets the same visual weight as the $2.6 billion and becomes an argument for the recommendation. Compare AE-3, which presented a complete architecture in the body and put its caveats in a validation appendix. Promote the unknown; don't bury it.
 2. **Is any signal of rigor unearned?** ID schemes nobody will ever say out loud (`per G-4…`), citations more precise than the source they came from, an appendix of caveats that withdraws what the body asserts, a label vocabulary the reader has to learn before reading. Individually defensible, collectively a document performing thoroughness.
 3. **Where does it commit?** Options presented → one recommended. Open questions listed → ordered. Impact claimed → magnitude, direction, timeframe. If the answer is nowhere, volume is standing in for judgment, and the fix is a position, not an edit.
 4. **What specifics did the polish delete?** Diff the deliverable against the notes or transcript it came from. Names, dates, numbers, and constraints that were in the source and aren't in the draft go back in. This is the single most recurrent failure in the observed corpus.
@@ -82,6 +82,7 @@ Report failures by category, quoting each flagged span. **No weights, no sum, no
 
 | Category | What it is |
 |---|---|
+| Always-strip | em-dash, or "not X but Y". **Exempt from the cluster rule: every instance counts on its own.** No observed rate overrides these |
 | Tell cluster | 3+ catalog tells within ~100 words; singles are noise, log but don't count |
 | INTERCHANGEABLE | the "20 unrelated pieces" test |
 | VOICED | only when a voice is bound |
@@ -100,14 +101,16 @@ Report failures by category, quoting each flagged span. **No weights, no sum, no
 
 1. One unit counts once, under its worst failure — no double-listing a sentence that is both interchangeable and unvoiced.
 2. **A span eats its units**: a tell cluster absorbs the failures of the sentences inside it. List the cluster; the sentences inside add nothing. Without this rule one bad paragraph generates six findings and the list stops meaning anything.
-3. **Piece-level VOICED**: if more than half the units fail VOICED, stop listing them. Report one piece-level finding and route to a full rewrite in the bound voice. Patching a wholly unvoiced piece span-by-span produces Frankenstein text.
-4. **Piece-level INSIGHT**: same shape. A piece that is locally specific everywhere and says nothing overall fails at the level of what it is for, and sentence surgery will not reach it. Report it that way: *"this is a summary; it needs a point of view before it needs edits."*
+3. **Piece-level VOICED**: when the piece fails as a whole rather than in spots, stop listing units. Report one piece-level finding, name which load-bearing voice features it misses, and quote two spans that show it. Route to a full rewrite in the bound voice. Do not gate this on a fraction of units — a ratio over a judgment that does not replicate is the numeric score returning through the back door (`master-list.md` PART D: require every verdict to state what decided it). Patching a wholly unvoiced piece span-by-span produces Frankenstein text.
+4. **Piece-level INSIGHT**: same shape, judged the same way — state what decided it, don't count to a threshold. A piece that is locally specific everywhere and says nothing overall fails at the level of what it is for, and sentence surgery will not reach it. Report it that way: *"this is a summary; it needs a point of view before it needs edits."*
 
 **The verdict.** Not a number — one of three: **Ship** (no piece-level failure fired and every span still flagged has a stated reason for staying) · **Fix these** (named spans, each with its failure and an in-voice replacement) · **Rewrite the argument** (a piece-level failure fired). Maximum two fix passes either way, then ship or escalate — a third pass over-sands.
 
 Report honestly: `4 findings — 2 tell clusters, 1 interchangeable, 1 additive; 1 single tell left as voice-consistent. Verdict: fix these.` Never report a finding you didn't locate in the text.
 
 **Decks:** the unit is the slide, the piece is the deck. Report slide by slide, then the deck-level pattern.
+
+**Pieces over ~3,000 words:** audit section by section rather than attempting the whole document in one pass. Carry a running per-category tally, name every section you covered, and run the document-level pass on the whole piece only after the section sweep finishes. Two of the three calibration exemplars are 40–50 page reports; without decomposition the pass silently ends wherever it ran out of room, and a partial audit reads exactly like a complete one.
 
 ## Audit-mode prerequisite: establish authorship first
 

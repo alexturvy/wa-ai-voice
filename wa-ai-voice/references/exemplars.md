@@ -32,7 +32,7 @@ A statewide governance plan produced for an advocacy organization. The most comp
 
 **The "?" stat box — the best single artifact in this corpus.** Four hero numbers in a row: `-$2.6B`, `60%`, `43rd`, and `?`. The fourth reads: *"Status of kindergarten readiness for Tennessee children. Though a critical metric, Tennessee has no consistent way of evaluating or tracking kindergarten readiness."*
 
-The unknown is given the same visual weight as the $2.6 billion. It is not hedged, footnoted, or moved to an appendix — it is promoted to a headline, and it becomes an argument for the recommendation. This is the exact inverse of AE-3, which buried five caveats in Appendix B while presenting a complete architecture in the body. **Where does the document admit it doesn't know something? Here, in 48-point type.**
+The unknown is given the same visual weight as the $2.6 billion. It is not hedged, footnoted, or moved to an appendix — it is promoted to a headline, and it becomes an argument for the recommendation. This is the exact inverse of AE-3, which buried its caveats in a validation appendix while presenting a complete architecture in the body. **Where does the document admit it doesn't know something? Here, in 48-point type.**
 
 **Abstract-then-anchor — the move analysts should copy first.** Every benefit claim is generic on its own and immediately cashed out:
 

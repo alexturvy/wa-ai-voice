@@ -2,6 +2,8 @@
 
 The bound voice for ECE work product. This file satisfies binding source #1 (explicit voice spec), so the no-voice hard stop does not fire on Watershed work. It is the floor, not a ceiling: an analyst with a stronger instinct for a given piece is not overruled by it.
 
+**Declining a flag.** Any flag can be declined. Record a one-line reason in the report's "left unfixed and why" list and move on — no escalation, no argument. The same rule declined repeatedly by different analysts is the signal that the rule is wrong, not that the analysts are; that is the intended path for this file to change. A standard nobody can dispute gets routed around instead of followed.
+
 **Status: prescriptive posture (§§1–4), observed mechanics (§§5–6).** The posture, structure, and lexicon rules below are a stated standard. Rhythm, punctuation rates, opener and closer habits, and subhead conventions are observed, drawn from the three published deliverables in `exemplars.md` — see §5, which **overrides the default caps in `tells.md` §5 entirely**. What remains unobserved is listed in §6: house vs. individual register, internal register, non-ECE practice areas, and the standing corrections directors repeat.
 
 ---
@@ -40,6 +42,7 @@ These are the recurring failure modes directors keep flagging. Each is a rewrite
 - **"It's not X, it's Y."** Defining the positive by negating something no one claimed. Say what it is.
 - **False contrast.** Distinct from the above: the form may be fine, the dishonesty is the problem. Two things set against each other that aren't actually in tension, or a strawman on one side. Often arrives as "rather than," "instead of," "the question isn't A but B."
 - **Forced tripartite.** See §2.
+- **Manager direction taken literally.** A director spitballs a phrase, a frame, or a half-formed direction and it lands in the draft verbatim instead of sharpened. Reads as captured rather than authored: spoken cadence in written prose, a framing the analyst can't explain beyond "that's how it was described to me." Manager direction is directional, not literal — the analyst's job is to develop it.
 - **Jargon.** See §4 — the distinction matters more than the list.
 
 ## 4. Lexicon
@@ -60,7 +63,11 @@ When a term appears on neither list and you can't tell: check whether the reader
 
 ## 5. Caps override — observed
 
-Two lists below. The **always-strip** rule comes from Watershed's content checklist. The **protected** rates come from the three exemplars in `exemplars.md` and they override the defaults in `tells.md` §5.
+Two lists below. The **always-strip** rule comes from Watershed's content checklist and applies to everything. The **protected** rates come from the three exemplars in `exemplars.md`.
+
+**Scope of the protected rates: external reports and decks only.** All three exemplars are published external reports, so those rates describe that register and nothing else. For internal registers — a memo to a colleague, a working note, a client email — the `tells.md` defaults and the email rubric in `audit-rubrics.md` govern instead. Do not protect 20–35 word formal sentences in a three-line email because a 50-page report used them. §6 lists internal register as still unobserved; until it isn't, the honest move is to fall back rather than extrapolate.
+
+**Where a row below gives an adjective instead of a count** — "heavy", "pervasive", "dense" — the pattern is licensed but the `tells.md` default remains the ceiling. An adjective cannot be exceeded, which would make over-bolding unfalsifiable. PART B is explicit: count before you describe, because a description cannot be wrong and a rate can. These rows are honest about what was observed and should be replaced with counts when someone has time to do the counting.
 
 ### Protected: house voice, do not flag
 

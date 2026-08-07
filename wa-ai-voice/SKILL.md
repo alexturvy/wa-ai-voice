@@ -22,7 +22,7 @@ Slop is not a vocabulary problem. It is manufactured upstream: alignment trainin
 
 | Mode | When | Run |
 |---|---|---|
-| **DRAFT** | writing new text | Layers 1→2→3→4, ship with the counted findings |
+| **DRAFT** | writing new text | Layers 1→2→3→4, then hand Layer 3 to a fresh context (see below) |
 | **AUDIT** | handed existing text | Layers 3→4, counted findings + verdict + fix list |
 
 ---
@@ -77,12 +77,15 @@ Run the five-question audit on every unit (sentence for short pieces, paragraph 
 4. **VOICED** — could the bound author have typed this sentence? → refit (Layer 4).
 5. **INSIGHT** — does this unit direct the reader, or does it name a thing and stop? Naming a fact, trend, or tension is summary. To pass, the unit must say whether it's good or bad and for whom, what's causing it, where it leads, or what to do about it. → connect the dot or cut the unit.
 
+**If you wrote the draft, you cannot run this gate on it.** Self-judgment is biased in the same direction as the defect: judges reward low-perplexity, over-typical text, so the too-smooth draft is exactly what self-scoring under-penalizes (`references/master-list.md` PART D). In DRAFT mode, once the draft exists, spawn a fresh-context subagent that never saw the drafting, hand it this skill plus the house voice file, and relay its findings. Counts you produce on your own draft are working notes, not a clearance, and must be labeled that way. Anything leaving the firm gets a `wa-ai-voice-audit` pass in fresh context before it ships.
+
 INSIGHT is the gate that separates an advisor from an observer, and it is the one a well-trained analyst fails most often — evidence presented neutrally reads as rigor. It applies wherever the piece is meant to influence what someone does. It does not apply to slots that are informational by design (a status line, a date, a roster) or to the legitimate-generic slots in `references/master-list.md` PART E.
 
 Then sweep for tells (`references/tells.md`) with two non-negotiable rules:
 
 - **Clusters, not singles.** One em-dash means nothing. One "delve" means little. Three catalog tells within ~100 words means rewrite that span. Flagging single tells produces the over-sanded text that stylometry catches at .98 accuracy for being *too tidy*.
-- **The voice sets the caps.** If the author uses em-dashes, em-dashes are fine — at the author's observed rate. Frequency budgets come from the voice card. Global defaults (`references/tells.md` §caps) apply only when no voice is bound.
+- **Two patterns are stripped unconditionally on Watershed work: em-dashes and "not X but Y."** The firm's content checklist names both as LLM tells to remove. They are exempt from the cluster rule below — every instance is its own finding, not noise — and no observed rate overrides them. See `references/watershed-ece-voice.md` §5.
+- **The voice sets the caps.** Otherwise, if the author uses em-dashes, em-dashes are fine — at the author's observed rate. Frequency budgets come from the voice card. Global defaults (`references/tells.md` §caps) apply only when no voice is bound.
 
 **Report the count, not a score.** List every failure by category, before fixing and after:
 
@@ -125,7 +128,7 @@ Deletion-to-neutral is half a fix; done by everyone, it converges on the same be
 
 **It judges how the writing reads. It cannot judge whether the writing is true.** A draft can pass every gate here and still be wrong about the facts, cite a rule that changed last year, propose a workflow that duplicates one already running, or resolve a strategic question the team never agreed on — all in flawless voice, because well-formed prose is exactly what the model produces when it doesn't know something.
 
-This is not a hedge; it is the observed failure mode. In `references/anti-examples.md`, AE-3's crosswalk row CW-04 passes all five audit questions — specific, committed, in-voice, directive — and it is the row a domain reviewer killed as factually wrong. Four of that document's thirteen reviewer comments were errors no reader without the file could catch.
+This is not a hedge; it is the observed failure mode. In `references/anti-examples.md`, an AE-3 crosswalk row passes all five audit questions — specific, committed, in-voice, directive — and it is the row a domain reviewer killed as factually wrong. A recurring group of that document's reviewer comments were errors no reader without the file could catch.
 
 So: **every factual claim, citation, number, date, and asserted position still needs a human who knows the material.** A clean audit means the prose is clean. It never means the document was checked. Any report that leaves that ambiguous invites a director to infer verification that didn't happen — and the more polished the draft, the more confidently it will be believed.
 
@@ -133,6 +136,17 @@ Watch for these specifically, and flag them for a human rather than fixing them:
 - A position or recommendation the team hasn't actually decided, written in the same settled register as everything else.
 - Citations more precise than the source they came from.
 - Coined terms, category schemes, and acronym expansions — those belong to the team, not the drafter. Flag on first use.
+
+---
+
+## Status and known gaps
+
+State these when they bear on what you report:
+
+- **All calibration to date is retrospective.** The standard has been derived from finished documents and has never been run on a draft in progress. The first live run is a test of the instrument, not just of the draft.
+- **The observed rates in the house voice come from three published deliverables**, probably by one or two authors, two of which share a reused asset. They describe a register that has been seen, not a firm-wide standard that has been established.
+- **The diagnoses in `references/anti-examples.md` are this method's own**, not confirmed by directors, except where reviewer comments are noted.
+- **One director-identified pattern is not covered here**: language that reads as captured rather than authored, where a manager's spitballed phrasing gets transcribed instead of sharpened. It is now named in `watershed-ece-voice.md` §3 but has no rubric support.
 
 ---
 
