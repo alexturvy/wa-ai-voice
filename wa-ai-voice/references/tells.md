@@ -64,7 +64,7 @@ Mechanical boldface on key noun phrases; emoji as bullet points; Title Case On E
 | rhetorical question pivots | 1 per piece |
 | metaphorical landscape/journey/ecosystem | 0 |
 
-**This skill always runs on Watershed drafts, so `watershed-ece-voice.md` §5 governs:** em-dash and "not X but Y" are stripped every time, whatever the observed rate. The rest of this table still applies where no voice is bound.
+**This skill always runs on Watershed drafts, so `watershed-ece-voice.md` Part 3 governs:** em-dash and "not X but Y" are stripped every time, whatever the observed rate. The rest of this table still applies where no voice is bound.
 
 ## Maintenance
 

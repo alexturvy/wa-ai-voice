@@ -9,7 +9,7 @@ Audit-and-fix workflow for any voice-bearing file. The argument is a file path o
 
 ## Setup (once)
 
-**Watershed work product is already bound: `../wa-ai-voice/references/watershed-ece-voice.md`** (installed: `~/.claude/skills/wa-ai-voice/references/watershed-ece-voice.md`). Read it in full before flagging anything. **Its §5 carries observed house rates that override `tells.md` §5 entirely — do not apply the default caps to Watershed work.** Triplet closers, heavy bold, Title Case heads, and colon labels are house voice, not tells; applying the defaults flags the opening sentence of the strongest deliverable in the corpus.
+**Watershed work product is already bound: `../wa-ai-voice/references/watershed-ece-voice.md`** (installed: `~/.claude/skills/wa-ai-voice/references/watershed-ece-voice.md`). Read it in full before flagging anything. **Its Part 3 carries observed house rates that override `tells.md` §5 entirely: do not apply the default caps to Watershed work.** Triplet closers, heavy bold, Title Case heads, and colon labels are house voice, not tells; applying the defaults flags the opening sentence of the strongest deliverable in the corpus.
 
 **Two patterns are always stripped: em-dashes and "not X but Y."** The firm content checklist names both as LLM tells to remove. They appear in published human-written Watershed reports; that does not create an exemption.
 

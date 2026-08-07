@@ -2,9 +2,9 @@
 
 Three published deliverables. Unlike `anti-examples.md`, these are external documents, so client and state names stay: the specificity is the point being demonstrated.
 
-Read this file before auditing. The anti-examples set a floor; these set the target, and they are the source of every observed rate in `watershed-ece-voice.md` §5.
+Read this file before auditing. The anti-examples set a floor; these set the target, and they are the source of every observed rate in `watershed-ece-voice.md` Part 3, and of the "works" half of every pair in Parts 1 and 2.
 
-**Caution on n.** PE-1 and PE-2 share a five-state comparison table nearly verbatim. That is a reused house asset, which strengthens "this is a house move" and weakens "these are three independent samples." Likely one or two authors across all three. Rates below are real observations; register questions they can't settle are listed as still-open in the house voice §6.
+**Caution on n.** PE-1 and PE-2 share a five-state comparison table nearly verbatim. That is a reused house asset, which strengthens "this is a house move" and weakens "these are three independent samples." Likely one or two authors across all three. Rates below are real observations; register questions they can't settle are listed as still-open in the house voice Part 5.
 
 ---
 

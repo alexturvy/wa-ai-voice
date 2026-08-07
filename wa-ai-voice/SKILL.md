@@ -69,6 +69,8 @@ The first completion is the mode — the most typical answer in the distribution
 
 ## Layer 3 — GATE (audit in clusters, count honestly)
 
+**Report findings by the fourteen names in `references/watershed-ece-voice.md`** — vague/filler, buried lead, evidence stacking, "not X it's Y", false contrast, forced tripartite, jargon, AI-detectable, insight-not-summary, advisor-not-observer, imprecision, no call to action, audience, appendix. Those are the names directors already use. The five questions below are internal machinery for finding the failures; an analyst never has to learn them.
+
 Run the five-question audit on every unit (sentence for short pieces, paragraph for long):
 
 1. **INTERCHANGEABLE** — could this exact unit sit in 20 unrelated pieces unchanged? → rewrite around a specific. *Read forward first: a general claim that is immediately cashed out with a named specific passes. The house pattern is claim → `Current State:` receipt.*
@@ -84,7 +86,7 @@ INSIGHT is the gate that separates an advisor from an observer, and it is the on
 Then sweep for tells (`references/tells.md`) with two non-negotiable rules:
 
 - **Clusters, not singles.** One em-dash means nothing. One "delve" means little. Three catalog tells within ~100 words means rewrite that span. Flagging single tells produces the over-sanded text that stylometry catches at .98 accuracy for being *too tidy*.
-- **Two patterns are stripped unconditionally on Watershed work: em-dashes and "not X but Y."** The firm's content checklist names both as LLM tells to remove. They are exempt from the cluster rule below — every instance is its own finding, not noise — and no observed rate overrides them. See `references/watershed-ece-voice.md` §5.
+- **Two patterns are stripped unconditionally on Watershed work: em-dashes and "not X but Y."** The firm's content checklist names both as LLM tells to remove. They are exempt from the cluster rule below — every instance is its own finding, not noise — and no observed rate overrides them. See `references/watershed-ece-voice.md` Part 3.
 - **The voice sets the caps.** Otherwise, if the author uses em-dashes, em-dashes are fine — at the author's observed rate. Frequency budgets come from the voice card. Global defaults (`references/tells.md` §caps) apply only when no voice is bound.
 
 **Report the count, not a score.** List every failure by category, before fixing and after:
@@ -146,7 +148,7 @@ State these when they bear on what you report:
 - **All calibration to date is retrospective.** The standard has been derived from finished documents and has never been run on a draft in progress. The first live run is a test of the instrument, not just of the draft.
 - **The observed rates in the house voice come from three published deliverables**, probably by one or two authors, two of which share a reused asset. They describe a register that has been seen, not a firm-wide standard that has been established.
 - **The diagnoses in `references/anti-examples.md` are this method's own**, not confirmed by directors, except where reviewer comments are noted.
-- **One director-identified pattern is not covered here**: language that reads as captured rather than authored, where a manager's spitballed phrasing gets transcribed instead of sharpened. It is now named in `watershed-ece-voice.md` §3 but has no rubric support.
+- **One director-identified pattern is not covered here**: language that reads as captured rather than authored, where a manager's spitballed phrasing gets transcribed instead of sharpened. It is now named in `watershed-ece-voice.md` Part 5 but has no pair and no rubric support.
 
 ---
 
@@ -163,7 +165,7 @@ State these when they bear on what you report:
 ## References (load on demand)
 
 - `references/watershed-ece-voice.md` — **the house voice for ECE work product. Load first, always, for any Watershed piece.** Posture (insight not summary, advisor not observer), structure rules (BLUF, appendix), the cut-on-sight list, and the filler-vs-terms-of-art lexicon split.
-- `references/exemplars.md` — **published Watershed deliverables that hit the bar.** The source of every observed rate in the house voice §5, and the positive moves worth copying. Read before auditing; the anti-examples set a floor, these set the target.
+- `references/exemplars.md` — **published Watershed deliverables that hit the bar.** The source of every observed rate in the house voice Part 3, and the positive moves worth copying. Read before auditing; the anti-examples set a floor, these set the target.
 - `references/anti-examples.md` — observed failures in real Watershed work product, quoted and diagnosed. Anti-anchors for calibration; read before auditing a deck.
 - `references/tells.md` — the tell catalog: vocabulary, structure, formatting, stance; cluster rules; default caps. The fast subset.
 - `references/master-list.md` — the full consolidated catalog: tells superset + voice-binding rules + refusal gates + audit-instrument honesty rules + edit-scope carve-outs. Load this for any full audit.

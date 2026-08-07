@@ -72,7 +72,7 @@ Two short columns of parallel bullets, a few dozen words total:
 
 ### What the terms-of-art carve-out got right
 
-Domain acronyms appear repeatedly across all three pieces and none should be flagged. At the time of this analysis none were on the explicit terms-of-art list in `watershed-ece-voice.md` §4 — the fallback test ("would the reader lose information in plain language?") carried all of them, and they have since been promoted to the explicit list. Meanwhile "actionable" and "alignment" fired correctly as filler in the same document. The split works.
+Domain acronyms appear repeatedly across all three pieces and none should be flagged. At the time of this analysis none were on the explicit terms-of-art list in `watershed-ece-voice.md` Part 4 — the fallback test ("would the reader lose information in plain language?") carried all of them, and they have since been promoted to the explicit list. Meanwhile "actionable" and "alignment" fired correctly as filler in the same document. The split works.
 
 ---
 

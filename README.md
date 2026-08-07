@@ -52,39 +52,26 @@ wa-ai-voice-audit/
 install.sh                      # copies both skills into ~/.claude/skills/
 ```
 
-## Coverage — the eight recurring failure modes
+## What it covers
 
-| Failure mode | Where it's caught | Status |
-|---|---|---|
-| Vague, fluffy, filler language | `watershed-ece-voice.md` §3 fluff test + §4 filler lexicon; INTERCHANGEABLE | covered |
-| Burying the lead | `tells.md` §2 buried lead; memo rubric BLUF; house voice §2 | added |
-| Evidence → evidence → conclusion | `tells.md` §2 evidence stacking; memo rubric claim-then-evidence | added |
-| "It's not X, it's Y" | `tells.md` §2 negative parallelism | already in catalog |
-| False contrasts | `tells.md` §2 false contrast — kept separate from parallelism, since the form can be fine and the dishonesty is the problem | added |
-| Forced tripartite structure | `tells.md` §2 rule of three; SHAPED; memo rubric section-count rule | already in catalog |
-| Jargon | `watershed-ece-voice.md` §4, split filler vs. terms of art | added |
-| Detectable as AI-written | the whole tell catalog + cluster rule | covered |
+The standard is fourteen named failures, all in `references/watershed-ece-voice.md`, each carrying a real before/after pair drawn from six documents: three drafts that failed review, three published deliverables.
 
-And the 30%:
+**The eight general AI-writing failures:** vague/fluffy/filler language · burying the lead · evidence → evidence → conclusion structure · "it's not X, it's Y" · false contrasts · forced tripartite structure · jargon · detectable as AI-written.
 
-| Watershed posture | Where it lives |
-|---|---|
-| Insight, not summary | **INSIGHT**, the fifth audit question — a unit that names a thing and stops fails; it must say why it matters, what caused it, where it leads, or what to do |
-| Influencer / advisor, not observer | house voice §1; the researcher reflex is named as the most common way this fails |
-| Precision of language | house voice §1 + the filler lexicon; INTERCHANGEABLE |
-| Audience awareness | promoted from prose to a required input — the contract's "one job," now mandatory for work product and a checked item in the memo rubric |
-| Detail belongs in an appendix | house voice §2; memo rubric, with the density rule overridden so the thinner body isn't flagged |
+**The six Watershed posture items:** insight not summary · influencer not researcher, advisor not casual observer · precision of language · no clear call to action · audience awareness · most supporting detail belongs in an appendix.
 
-Four failures derived from the observed corpus and adopted into the rubric (`anti-examples.md` §Derived rules): specifics deleted by the polishing pass; comprehensiveness used to avoid committing; and **the apparatus tell** — filled matrices, ID schemes, pinpoint citations from approximate sources, caveat appendices; and terminology and categories settled by the drafter rather than the team. The apparatus tell is invisible to the unit-by-unit audit, so it lives in the document-level pass in `audit-rubrics.md`.
+Analysts report failures by those names. The audit machinery underneath (a five-question pass, a tell catalog, a document-level structural check) lives in `audit-rubrics.md` and nobody has to learn it.
 
-**Scope boundary, stated in every report:** the skill judges how a draft reads, never whether it is true. AE-3 passes the audit and a domain reviewer found four factual errors in it. A clean audit means clean prose, not a checked document.
+Three additions came out of the corpus rather than the spec, and they are the ones worth knowing about. **Formalizing deletes specifics** — the unpolished internal notes in one failing deck were denser than the polished client slides that replaced them, so the fix is to diff the deliverable against the notes it came from. **Comprehensiveness is how a draft avoids committing** — volume moves inversely to willingness to choose. And **the apparatus tell**: filled matrices, ID schemes nobody uses, citations more precise than their sources, caveat appendices that withdraw what the body asserts. That last one is invisible unit-by-unit, so it lives in a document-level pass.
 
-**No numeric score, deliberately.** An earlier version summed weighted categories to a 0–10 scale with a "ship at ≤2" gate. That was this skill's own apparatus tell — its `master-list.md` PART D holds that absolute scores don't replicate and prescribes counted failures instead. It now reports findings by category and one of three verdicts: ship, fix these, or rewrite the argument.
+**Scope boundary, stated in every report:** the skill judges how a draft reads, never whether it is true. One of the failing drafts passes the audit cleanly and a domain reviewer found four factual errors in it. A clean audit means clean prose, not a checked document.
+
+**No numeric score, deliberately.** An earlier version summed weighted categories to a 0–10 scale with a "ship at ≤2" gate. Absolute scores don't replicate, so it now reports findings by name plus one of three verdicts: ship, fix these, or rewrite the argument.
 
 ## Open items
 
-1. **~~Exemplars~~ — closed for external reports, open for internal registers.** Three published deliverables are in (`references/exemplars.md`) and the house voice §5 now carries observed rates for rhythm, bold, Title Case, colon labels, and triplet closers. Note what the exemplars do NOT license: em-dashes and "not X but Y" appear throughout them and are stripped anyway, because the firm content checklist says to strip them. A house rule is a decision about what to write next, not a description of the archive. Still open: internal register (memo to a colleague, working note, client email — all three exemplars are published external reports), non-ECE practice areas, and house-vs-individual register, which three deliverables from one or two authors can't settle.
-2. **Vocabulary alignment with the internal coaching skill.** A complementary internal review skill covers overlapping ground under different names. Analysts should learn one name per pattern, not two. Aligning the vocabulary is the next pass; the missing pattern it identified (manager direction taken literally) is now in `watershed-ece-voice.md` §3.
+1. **~~Exemplars~~ — closed for external reports, open for internal registers.** Three published deliverables are in (`references/exemplars.md`) and the house voice Part 3 now carries observed rates for rhythm, bold, Title Case, colon labels, and triplet closers. Note what the exemplars do NOT license: em-dashes and "not X but Y" appear throughout them and are stripped anyway, because the firm content checklist says to strip them. A house rule is a decision about what to write next, not a description of the archive. Still open: internal register (memo to a colleague, working note, client email — all three exemplars are published external reports), non-ECE practice areas, and house-vs-individual register, which three deliverables from one or two authors can't settle.
+2. **Vocabulary alignment with the internal coaching skill.** A complementary internal review skill covers overlapping ground under different names. Analysts should learn one name per pattern, not two. Aligning the vocabulary is the next pass; the missing pattern it identified (manager direction taken literally) is now in `watershed-ece-voice.md` Part 5.
 3. **Delivery surface.** If ECE analysts are on claude.ai rather than Claude Code, a skill directory is the wrong package and "default" means Project instructions instead. The house voice, the INSIGHT gate, and the memo rubric are surface-agnostic; only the wrapper changes.
 4. **Social apparatus still in the catalog.** Reply batches, thread scaffolding, @-mention mechanics, captions, trailing particles, dated slang. Cut per item, or keep where the underlying move (padding, format-announcing, coda after the punch) survives translation to a memo.
 5. **This is the automatic floor, not the coaching pass.** An internal review skill already covers deliberate, phased coaching. These two are meant to sit underneath it, not replace it — which only works if the pattern names match. See item 2.
