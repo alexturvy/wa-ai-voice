@@ -77,7 +77,7 @@ And the 30%:
 | Audience awareness | promoted from prose to a required input — the contract's "one job," now mandatory for work product and a checked item in the memo rubric |
 | Detail belongs in an appendix | house voice §2; memo rubric, with the density rule overridden so the thinner body isn't flagged |
 
-Three failures derived from the observed corpus and adopted into the rubric (`anti-examples.md` §Derived rules): specifics deleted by the polishing pass; comprehensiveness used to avoid committing; and **the apparatus tell** — filled matrices, ID schemes, pinpoint citations from approximate sources, caveat appendices. The apparatus tell is invisible to the unit-by-unit audit, so it lives in the new document-level pass in `audit-rubrics.md`.
+Four failures derived from the observed corpus and adopted into the rubric (`anti-examples.md` §Derived rules): specifics deleted by the polishing pass; comprehensiveness used to avoid committing; and **the apparatus tell** — filled matrices, ID schemes, pinpoint citations from approximate sources, caveat appendices; and terminology and categories settled by the drafter rather than the team. The apparatus tell is invisible to the unit-by-unit audit, so it lives in the document-level pass in `audit-rubrics.md`.
 
 **Scope boundary, stated in every report:** the skill judges how a draft reads, never whether it is true. AE-3 passes the audit and a domain reviewer found four factual errors in it. A clean audit means clean prose, not a checked document.
 

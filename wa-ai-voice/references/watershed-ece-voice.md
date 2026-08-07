@@ -2,7 +2,7 @@
 
 The bound voice for ECE work product. This file satisfies binding source #1 (explicit voice spec), so the no-voice hard stop does not fire on Watershed work. It is the floor, not a ceiling: an analyst with a stronger instinct for a given piece is not overruled by it.
 
-**Status: prescriptive posture (§§1–4), observed mechanics (§§5–6).** The posture, structure, and lexicon rules below are a stated standard. Rhythm, punctuation rates, opener and closer habits, and subhead conventions are observed, drawn from the three published deliverables in `exemplars.md` — see §5, which **overrides the default caps in `tells.md` §5 entirely**. What remains unobserved is listed in §6: internal register, non-ECE practice areas, and how much individual voice survives.
+**Status: prescriptive posture (§§1–4), observed mechanics (§§5–6).** The posture, structure, and lexicon rules below are a stated standard. Rhythm, punctuation rates, opener and closer habits, and subhead conventions are observed, drawn from the three published deliverables in `exemplars.md` — see §5, which **overrides the default caps in `tells.md` §5 entirely**. What remains unobserved is listed in §6: house vs. individual register, internal register, non-ECE practice areas, and the standing corrections directors repeat.
 
 ---
 

@@ -117,6 +117,7 @@ Before flagging anything in AUDIT mode, determine whose text this is. If it's a 
 
 When auditing existing text, return:
 1. The findings before, quoting each flagged span and naming the failure.
-2. The rewrite (or per-span fixes for long pieces).
-3. Score after.
-4. Anything left unfixed and why (no voice precedent, quoted material, author habit).
+2. The verdict: **ship**, **fix these**, or **rewrite the argument**.
+3. The rewrite (or per-span fixes for long pieces).
+4. The counted findings after, by category.
+5. Anything left unfixed and why (no voice precedent, quoted material, author habit).

@@ -33,17 +33,17 @@ None of the three available: stop and say so. Auditing against a default banlist
 
 3. **You did not write this and you don't get credit for liking it.** If a prior session or agent produced it, that makes you MORE suspicious, not less. Fresh judgment is the whole point of this skill.
 
-4. **Report before touching anything:**
+4. **Run the document-level pass before you report.** The five gates work unit by unit and will clear a document whose failure is structural — see `wa-ai-voice/references/anti-examples.md` AE-3, where every row passes and the document as a whole is performing rigor it doesn't have. The four checks in `audit-rubrics.md` under "Document-level pass" take two minutes and catch what row-by-row cannot.
+
+5. **Report before touching anything:**
    - The counted findings by category (wa-ai-voice rubric). No numeric score — the arithmetic was removed deliberately; report what you found and the verdict.
    - The verdict: **ship**, **fix these**, or **rewrite the argument**.
    - Every flagged line with its location (slide/section/line), why it fails, and a swap written in the author's voice. Check each swap against the voice file: keep their irregularities, fix toward their words, never toward neutral.
    - What's clean and must not be touched (their numbers, refrains, named things, signature moves).
 
-5. **Wait for the go, then apply exact-string edits only from the approved list.** One fix pass, two max. Do not polish anything unflagged, do not sand. Report the remaining findings after. If the user says "just fix it" or "no need to ask" up front, skip the gate and apply, but still show the full before/after findings.
+6. **Wait for the go, then apply exact-string edits only from the approved list.** One fix pass, two max. Do not polish anything unflagged, do not sand. Report the remaining findings after. If the user says "just fix it" or "no need to ask" up front, skip the gate and apply, but still show the full before/after findings.
 
-6. **Close every report with the scope line, verbatim in substance:** *this audit judged how the draft reads, not whether it is true — every factual claim, citation, number, and asserted position still needs someone who knows the material.* Then list anything you noticed that needs a domain check: positions the team may not have decided, citations that look more precise than their source, coined terms and categories, numbers with no stated origin. Never let a clean score imply the document was verified. See `wa-ai-voice/SKILL.md` §"What this skill does not check."
-
-7. **Run the document-level pass before you report.** The five gates work unit by unit and will clear a document whose failure is structural — see `wa-ai-voice/references/anti-examples.md` AE-3, where every row passes and the document as a whole is performing rigor it doesn't have. The four checks in `audit-rubrics.md` under "Document-level pass" take two minutes and catch what row-by-row cannot.
+7. **Close every report with the scope line, verbatim in substance:** *this audit judged how the draft reads, not whether it is true — every factual claim, citation, number, and asserted position still needs someone who knows the material.* Then list anything you noticed that needs a domain check: positions the team may not have decided, citations that look more precise than their source, coined terms and categories, numbers with no stated origin. Never let a clean audit imply the document was verified. See `wa-ai-voice/SKILL.md` §"What this skill does not check."
 
 8. **Zero findings is a claim, not a shrug.** If nothing fails, say what was checked and where problems would hide anyway. "It's clean" with no evidence means the audit didn't happen.
 
