@@ -64,6 +64,8 @@ Mechanical boldface on key noun phrases; emoji as bullet points; Title Case On E
 | rhetorical question pivots | 1 per piece |
 | metaphorical landscape/journey/ecosystem | 0 |
 
+**Watershed overlay.** `watershed-ece-voice.md` §5 puts em-dash and "not X but Y" on an always-strip list for Watershed work product, which no observed rate overrides. That is a house decision layered on top of this table, not a revision of it: the cluster rule and the general caps still describe how these patterns work everywhere else.
+
 ## Maintenance
 
 Vocabulary lists decay: models update, and mass-adopted scrub lists teach the next generation new tells. Re-derive the vocabulary section periodically against fresh corpora (over-representation vs. a human baseline), and prune anything real humans around you have started saying unironically.

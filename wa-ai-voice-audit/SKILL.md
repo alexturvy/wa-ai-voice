@@ -11,7 +11,7 @@ Audit-and-fix workflow for any voice-bearing file. The argument is a file path o
 
 **Watershed work product is already bound: `~/.claude/skills/wa-ai-voice/references/watershed-ece-voice.md`.** Read it in full before flagging anything. **Its §5 carries observed house rates that override `tells.md` §5 entirely — do not apply the default caps to Watershed work.** Triplet closers, heavy bold, Title Case heads, and colon labels are house voice, not tells; applying the defaults flags the opening sentence of the strongest deliverable in the corpus.
 
-**Two exceptions are mode-dependent — read §5's "Em-dash and 'not X but Y'" subsection before flagging either.** The firm's own content checklist says to strip both from AI-assisted drafts, and a stated house rule outranks the measured corpus. So: strip them in DRAFT mode or when auditing text a model touched; leave them alone when auditing human-written text, where flagging them manufactures the false positives §5 exists to prevent. If you can't tell which, ask.
+**Two patterns are always stripped from Watershed work, with no exceptions: em-dashes and "not X but Y."** The firm's content checklist names both as LLM tells to remove. They appear in published human-written Watershed reports; that does not create an exemption. Flag and replace every instance. This is a Watershed overlay on the general method, not a change to it.
 
 For anything else, point step 1 at the author's voice. In priority order:
 
