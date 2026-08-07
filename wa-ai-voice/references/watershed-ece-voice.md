@@ -2,7 +2,7 @@
 
 The bound voice for ECE work product. This file satisfies binding source #1 (explicit voice spec), so the no-voice hard stop does not fire on Watershed work. It is the floor, not a ceiling: an analyst with a stronger instinct for a given piece is not overruled by it.
 
-**Status: prescriptive, not yet observed.** Everything below is a stated standard. The descriptive half of a voice card — rhythm, punctuation rates, opener and closer habits, subhead convention, sign-offs — is empty, and that gap has a consequence, spelled out in §5. Fill it from exemplars before trusting any default cap.
+**Status: prescriptive posture (§§1–4), observed mechanics (§§5–6).** The posture, structure, and lexicon rules below are a stated standard. Rhythm, punctuation rates, opener and closer habits, and subhead conventions are observed, drawn from the three published deliverables in `exemplars.md` — see §5, which **overrides the default caps in `tells.md` §5 entirely**. What remains unobserved is listed in §6: internal register, non-ECE practice areas, and how much individual voice survives.
 
 ---
 
@@ -64,16 +64,31 @@ When a term appears on neither list and you can't tell: check whether the reader
 
 | Pattern | Default | Observed house rate | Verdict |
 |---|---|---|---|
-| em-dash | 1 / 500w | unspaced, ~2–4 per 500w; used mid-sentence for apposition and for the aside — *"agency—the Tennessee Department of Education—with a strong state lead"* | house punctuation, never flag |
+| em-dash | 1 / 500w | unspaced, ~2–4 per 500w; used mid-sentence for apposition and for the aside — *"agency—the Tennessee Department of Education—with a strong state lead"* | **mode-dependent, see below** |
 | rule of three | 1 / piece | pervasive and deliberate. **"children, families, and providers" is a house refrain** appearing across all three exemplars | protected shape, never flag |
 | triplet closer | flagged as aphorism closer | standard in executive summaries — *"…children have the early experiences they need…, families have the resources they need to thrive, and providers are supported to operate stable, high-quality programs"* | in voice |
-| "not only X but Y" | 1 / piece | present in the literal first sentence of PE-2, and as a section title (*"Coordinate, Don't Complicate"*) | in voice |
+| "not X but Y" | 1 / piece | present in the literal first sentence of PE-2, and as a section title (*"Coordinate, Don't Complicate"*) | **mode-dependent, see below** |
 | bold phrases | 2 / piece | heavy — bold on the claim sentence, bold on every colon label | in voice |
 | colon-label bullets | — | house standard: **`Bold Label:` then the content** | in voice |
 | exclamation marks | 1 / piece | zero observed in ~90 pages | keep at 0 |
 | inline hyperlinks | — | dense; the link goes **on the number**, not on "click here" or the publisher name | in voice, and expected on any statistic |
 | sentence length | — | long and even, ~20–35 words, few fragments. Formal register, low burstiness by design | do not flag uniformity here |
 | Title Case heads | flagged | house standard for major heads; colon-scoped subheads in decks (*"System Fragmentation: Funding"*) | in voice |
+
+### Em-dash and "not X but Y" — the two mode-dependent rows
+
+Watershed's own content checklist instructs analysts, under *"If using ChatGPT or another AI tool, obvious LLM writing choices have been removed"*, to strip **"Not X but Y" format** and **em-dashes**. The published exemplars use both freely — the first sentence of the strongest deliverable in the corpus contains a "not only… but" and the report is full of unspaced em-dashes.
+
+That is not a contradiction to resolve by picking a side. The checklist rule is scoped to drafts a model touched, and a stated house rule outranks the measured corpus (`master-list.md` PART B: a dropped rule is deleted, not softened). So:
+
+| Mode | Rule |
+|---|---|
+| **DRAFT, or AUDIT on AI-assisted text** | Strip both. Flag with the reason *"the house checklist treats this as an AI tell in AI-assisted drafts"* — never *"this isn't your voice,"* which the exemplars disprove. |
+| **AUDIT on human-written text** — a legacy deliverable, a director's memo, anything drafted without a model | Observed rates govern. Do not flag. Flagging em-dashes in a director's own prose is the false positive §5 exists to prevent. |
+
+If you can't tell which mode you're in, ask. Noted once and not re-argued: this method holds that a scrubbed-em-dash style becomes its own tell at scale. The firm has decided otherwise for AI-assisted work, and that decision governs here.
+
+Every other row in the table above is unaffected — the checklist doesn't touch triplet closers, bold, Title Case heads, or colon labels, so those stay house voice in both modes.
 
 The forced-tripartite rule in §2 and the rule-of-three exemption above are not in conflict: the failure is **three slots with two slots' worth of content**, never the number three. PE-1 slide 22 runs five parallel labels each with a real sentence; AE-1 slide 6 runs eight with nothing. Count the content, not the shape.
 

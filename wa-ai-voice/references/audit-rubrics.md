@@ -1,6 +1,6 @@
 # Audit Rubrics — Per Format
 
-The five-question audit (INTERCHANGEABLE / ADDITIVE / SHAPED / VOICED / INSIGHT) applies everywhere. Each format below adds its own pass/fail checks on top. Run format checks AFTER the 5Q pass, before scoring.
+The five-question audit (INTERCHANGEABLE / ADDITIVE / SHAPED / VOICED / INSIGHT) applies everywhere. Each format below adds its own pass/fail checks on top. Run format checks AFTER the 5Q pass, before reporting.
 
 ## Client memo / brief / recommendation — the primary Watershed format
 
@@ -12,7 +12,7 @@ Read `watershed-ece-voice.md` first. These checks are on top of it.
 - **Body carries the argument; detail goes to the appendix.** Methodology, full tables, rosters, the long version of a caveat. A body paragraph that would survive being moved to an appendix belongs in the appendix.
 - **Named reader on the record.** Who this is for and what they should do after. If the draft can't say, that's the first finding.
 - **The ask is explicit.** A recommendation memo that never states what it wants is a summary with a header.
-- **INSIGHT is scored strictly here, and the unit is the claim plus what follows it.** A summary sentence is not defective in isolation — "Enrollment in state-funded pre-K has flattened in 14 states" is clean, specific, and passes every sentence-level check. The failure is that nothing after it says why, what caused it, or what to do. Read forward: flag when the paragraph never supplies the so-what, not when a sentence lacks it. An auditor working strictly sentence by sentence will miss every INSIGHT failure in the document.
+- **INSIGHT is judged strictly here, and the unit is the claim plus what follows it.** A summary sentence is not defective in isolation — "Enrollment in state-funded pre-K has flattened in 14 states" is clean, specific, and passes every sentence-level check. The failure is that nothing after it says why, what caused it, or what to do. Read forward: flag when the paragraph never supplies the so-what, not when a sentence lacks it. An auditor working strictly sentence by sentence will miss every INSIGHT failure in the document.
 
 **Overrides — these general rules are wrong for a memo and do not apply:**
 
@@ -76,40 +76,38 @@ Everything in the memo rubric, plus:
 - Length floor: if it fits in two sentences, it's two sentences.
 - Sign-offs in the author's habit, not "Best regards" by default.
 
-## The score sheet (all formats)
+## The findings list (all formats)
 
-Count per ~500 words (whole piece if shorter):
+Report failures by category, quoting each flagged span. **No weights, no sum, no 0–10 scale** — see `../SKILL.md` Layer 3 for why the arithmetic was removed.
 
-| Signal | Pts each | Notes |
-|---|---|---|
-| Tell cluster (3+ catalog tells within ~100 words) | 2 | singles are noise, log but don't score |
-| INTERCHANGEABLE unit | 2 | the "20 unrelated pieces" test |
-| VOICED failure | 2 | only when a voice is bound |
-| INSIGHT failure | 2 | names a thing and stops; exempt in informational slots |
-| SHAPED structure | 1 | template imposed on content |
-| ADDITIVE failure | 1 | padding, restating, throat-clearing |
+| Category | What it is |
+|---|---|
+| Tell cluster | 3+ catalog tells within ~100 words; singles are noise, log but don't count |
+| INTERCHANGEABLE | the "20 unrelated pieces" test |
+| VOICED | only when a voice is bound |
+| INSIGHT | names a thing and stops; exempt in informational slots |
+| SHAPED | template imposed on content |
+| ADDITIVE | padding, restating, throat-clearing |
 
 **Counting rules (all five, no exceptions):**
 
-0. **Read forward before scoring anything.** A unit followed by its anchor is scored as the pair, not alone. This governs every question below and it is the single most common way an audit manufactures false findings.
-   - *INTERCHANGEABLE*: a general claim immediately cashed out with a named specific passes. The house pattern is claim → `Current State:` receipt (`exemplars.md` PE-2). Scored in isolation, every benefit sentence in the strongest deliverable in the corpus fails.
+0. **Read forward before counting anything.** A unit followed by its anchor counts as the pair, not alone. This governs every category and it is the single most common way an audit manufactures false findings.
+   - *INTERCHANGEABLE*: a general claim immediately cashed out with a named specific passes. The house pattern is claim → `Current State:` receipt (`exemplars.md` PE-2). Counted in isolation, every benefit sentence in the strongest deliverable in the corpus fails.
    - *INSIGHT*: the unit is the claim plus what follows it. "Enrollment has flattened in 14 states" is a clean sentence; the failure is that nothing after it says why.
    - *The apparatus tell* is invisible at unit level entirely — it lives in the document-level pass above.
 
-   If you are scoring sentence by sentence with no forward look, you are finding the wrong things and missing the real ones.
+   If you are working sentence by sentence with no forward look, you are finding the wrong things and missing the real ones.
 
-1. One unit scores its single worst failure — no double-counting a sentence that is both interchangeable and unvoiced.
-2. **A span eats its units**: a scored tell cluster absorbs the 5Q failures of the sentences inside it. Score the cluster's 2 points; the sentences inside add nothing. Without this rule the same bad paragraph scores 6+ and the number stops meaning anything.
-3. **Piece-level VOICED**: if more than half the units fail VOICED, stop counting them — score VOICED once (+2) for the piece and route to a full rewrite in the bound voice instead of span fixes. Patching a wholly unvoiced piece span-by-span produces Frankenstein text.
-4. **Piece-level INSIGHT**: same shape. If more than half the units fail INSIGHT, score it once (+2) and fix the argument, not the spans. A piece that is locally specific everywhere and says nothing overall fails at the level of what it is for — sentence surgery will not reach it. Report it that way: "this is a summary; it needs a point of view before it needs edits."
+1. One unit counts once, under its worst failure — no double-listing a sentence that is both interchangeable and unvoiced.
+2. **A span eats its units**: a tell cluster absorbs the failures of the sentences inside it. List the cluster; the sentences inside add nothing. Without this rule one bad paragraph generates six findings and the list stops meaning anything.
+3. **Piece-level VOICED**: if more than half the units fail VOICED, stop listing them. Report one piece-level finding and route to a full rewrite in the bound voice. Patching a wholly unvoiced piece span-by-span produces Frankenstein text.
+4. **Piece-level INSIGHT**: same shape. A piece that is locally specific everywhere and says nothing overall fails at the level of what it is for, and sentence surgery will not reach it. Report it that way: *"this is a summary; it needs a point of view before it needs edits."*
 
-Sum, cap at 10. Ship at ≤2. Maximum two fix passes, then ship or escalate to the user — a third pass over-sands.
+**The verdict.** Not a number — one of three: **Ship** (no piece-level failure fired and every span still flagged has a stated reason for staying) · **Fix these** (named spans, each with its failure and an in-voice replacement) · **Rewrite the argument** (a piece-level failure fired). Maximum two fix passes either way, then ship or escalate — a third pass over-sands.
 
-**A capped score is a route, not a rank.** Once a piece hits 10 the number stops discriminating — two slides can both cap while one needs three fixes and the other needs to be thrown out. When the count reaches the cap, don't report "10." Report the route: *"caps out — this needs an argument before it needs edits."* Then name the two or three failures that would have to be fixed first. Coaching needs the direction, not the ceiling.
+Report honestly: `4 findings — 2 tell clusters, 1 interchangeable, 1 additive; 1 single tell left as voice-consistent. Verdict: fix these.` Never report a finding you didn't locate in the text.
 
-**Scoring decks:** the unit is the slide, and the deck is the piece. Score slide by slide, then report the deck-level pattern. Per-500-word normalization is meaningless on a 40-word slide — a slide of eight empty bullets is a failed slide, not a low-density one.
-
-Report honestly: `slop score 7 → 1 (2 clusters, 1 interchangeable fixed; 1 single tell left as voice-consistent)`. Never report a score you didn't count.
+**Decks:** the unit is the slide, the piece is the deck. Report slide by slide, then the deck-level pattern.
 
 ## Audit-mode prerequisite: establish authorship first
 
@@ -118,7 +116,7 @@ Before flagging anything in AUDIT mode, determine whose text this is. If it's a 
 ## Audit-mode output format
 
 When auditing existing text, return:
-1. Score before, with the counted list (quote each flagged span, name the failure).
+1. The findings before, quoting each flagged span and naming the failure.
 2. The rewrite (or per-span fixes for long pieces).
 3. Score after.
 4. Anything left unfixed and why (no voice precedent, quoted material, author habit).

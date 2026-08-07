@@ -31,13 +31,13 @@ The diagnosis an analyst can act on: **the specifics were already in your notes.
 
 ### Per-slide
 
-**Slide 2 — plan for the pilot year. Score: 3.** The strongest slide, and worth studying for that. Real content: pilot providers receive a CLASS observation in place of the legacy CQI visit; non-participants choose between freezing their rating and a pared-down annual review; the freeze runs until new ratings publish, roughly three years out.
+**Slide 2 — plan for the pilot year. Verdict: fix these (3 findings).** The strongest slide, and worth studying for that. Real content: pilot providers receive a CLASS observation in place of the legacy CQI visit; non-participants choose between freezing their rating and a pared-down annual review; the freeze runs until new ratings publish, roughly three years out.
 
-- *SHAPED (1)* — title states a topic ("2026-2027 Plan for [the program]"), not the claim.
-- *ADDITIVE (1, ×2)* — both options are stated, then restated in expanded form below. Say each once, fully. The restatements do carry new facts ("annually", "a limited number of standards"), which is why this reads as thorough rather than repetitive — it's still two passes at one idea.
+- *SHAPED* — title states a topic ("2026-2027 Plan for [the program]"), not the claim.
+- *ADDITIVE* (twice) — both options are stated, then restated in expanded form below. Say each once, fully. The restatements do carry new facts ("annually", "a limited number of standards"), which is why this reads as thorough rather than repetitive — it's still two passes at one idea.
 - Left alone: "likely 3 years from now" hedges the most decision-relevant number in the deck, but the hedge may be honest. Flag for the author, don't fix.
 
-**Slide 3 — implementation decisions. Score: capped.**
+**Slide 3 — implementation decisions. Verdict: rewrite.**
 
 - *Title/content mismatch* — "Implementation Decision Points" contains no decision point. Every line states a decision already made or a plan already forming. If a slide promises decisions, it names the choice and who makes it.
 - *Orphaned enumeration* — "[Agency] staff will be split across three distinct functions" is the first bullet; the three functions are the last three bullets, separated by unrelated content about bonuses and scholarships. The stem and its items are on opposite ends of the slide.
@@ -45,19 +45,19 @@ The diagnosis an analyst can act on: **the specifics were already in your notes.
 - *Buried lead in a single sentence* — 60 words beginning "[The agency] is developing a transition and support plan that ensures..." The load-bearing facts (programs will drop ratings; there's a 2–3 year hold harmless) arrive mid-sentence, behind a subject that is the plan rather than the consequence. Closes on a rule-of-three verb chain: "strengthen adult–child interactions, improve CLASS scores, and regain higher rating levels over time."
 - *Undefined hedge* — "may allow quality bonuses to continue for a defined period." The period is not defined. A defined period that isn't defined is worse than no claim.
 
-**Slide 4 — participants and priorities. Score: capped.**
+**Slide 4 — participants and priorities. Verdict: rewrite.**
 
 - The four priorities — "Actionable feedback for educators," "Alignment across system actors," "A clear picture of quality over time," "Accountability for public investment" — are four noun phrases that could head the priorities list of any state QRIS redesign in the country. *INTERCHANGEABLE* on all four. Two filler-lexicon hits ("actionable," "alignment" in the non-governance sense).
 - *INSIGHT* — names priorities without saying why these four, what they cost, or what they trade against each other. Four priorities with no ranking is zero priorities.
 - The participant roster (lead entity, regional partners, feedback body, approving board) is a directory. Directories are appendix material unless the point is who's missing or who's overloaded.
 
-**Slide 5 — vendor resources. Score: capped.**
+**Slide 5 — vendor resources. Verdict: rewrite.**
 
 - *Vendor voice leaking in* — "[Vendor] offers a mature, dual-track CLASS toolkit today." That's the vendor's sales sheet restated. "Mature" and "toolkit" are the vendor's adjectives. Watershed's job on a vendor slide is the assessment: which of these the state should use, in what sequence, and what's missing.
 - *Feature list* — five offerings enumerated, none evaluated. "New leadership team" is listed as an available resource, which it isn't.
 - *Two titles, one slide* — "What's Next" over "[Vendor] Resources Available Overview." Neither states a claim, and the first is contradicted by the absence of any date.
 
-**Slide 6 — anticipated impact. Score: capped, and the worst in the deck.**
+**Slide 6 — anticipated impact. Verdict: rewrite, and the worst in the deck.**
 
 Eight bullets, two columns of four, ~40 words total:
 

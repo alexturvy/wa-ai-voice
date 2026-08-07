@@ -22,8 +22,8 @@ Slop is not a vocabulary problem. It is manufactured upstream: alignment trainin
 
 | Mode | When | Run |
 |---|---|---|
-| **DRAFT** | writing new text | Layers 1→2→3→4, ship with score |
-| **AUDIT** | handed existing text | Layers 3→4, report score before/after + fix list |
+| **DRAFT** | writing new text | Layers 1→2→3→4, ship with the counted findings |
+| **AUDIT** | handed existing text | Layers 3→4, counted findings + verdict + fix list |
 
 ---
 
@@ -67,7 +67,7 @@ The first completion is the mode — the most typical answer in the distribution
 - **Write as the voice from the first token.** Persona-at-generation beats persona-as-postedit (a persona prompt moved a frontier model from 36% to 73% judged-human). The voice card is in context; use its constructions while drafting, not after.
 - Draft to natural length, then cut ~20%. Never write toward a word count.
 
-## Layer 3 — GATE (audit in clusters, score honestly)
+## Layer 3 — GATE (audit in clusters, count honestly)
 
 Run the five-question audit on every unit (sentence for short pieces, paragraph for long):
 
@@ -84,18 +84,27 @@ Then sweep for tells (`references/tells.md`) with two non-negotiable rules:
 - **Clusters, not singles.** One em-dash means nothing. One "delve" means little. Three catalog tells within ~100 words means rewrite that span. Flagging single tells produces the over-sanded text that stylometry catches at .98 accuracy for being *too tidy*.
 - **The voice sets the caps.** If the author uses em-dashes, em-dashes are fine — at the author's observed rate. Frequency budgets come from the voice card. Global defaults (`references/tells.md` §caps) apply only when no voice is bound.
 
-**Score it** (before fixing, and after — report both):
+**Report the count, not a score.** List every failure by category, before fixing and after:
 
-| Count per ~500 words (whole piece if shorter) | Points each |
+| Category | What it is |
 |---|---|
-| tell clusters (3+ catalog tells within ~100 words) | 2 |
-| INTERCHANGEABLE units | 2 |
-| VOICED failures | 2 |
-| INSIGHT failures (names a thing and stops) | 2 |
-| SHAPED structures | 1 |
-| ADDITIVE failures (padding/restating) | 1 |
+| tell clusters | 3+ catalog tells within ~100 words |
+| INTERCHANGEABLE | could sit in 20 unrelated pieces unchanged |
+| VOICED | the bound author wouldn't have written it |
+| INSIGHT | names a thing and stops |
+| SHAPED | template imposed on content |
+| ADDITIVE | padding, restating, throat-clearing |
 
-Counting: one unit scores only its worst failure; a scored cluster absorbs the 5Q failures of the sentences inside it; if more than half the units fail VOICED, score VOICED once for the piece and route to a full rewrite instead of span fixes; if more than half fail INSIGHT, score INSIGHT once for the piece and fix the argument, not the spans — a piece with no through-line cannot be patched sentence by sentence. Sum, cap at 10. **Ship at ≤2. Max two fix passes** — past that you're sanding, and sanded text is its own tell. Quoted/cited material is immune, and so are the author's signature shapes (see tells.md §protected shapes). In AUDIT mode, establish whose text it is and bind THAT voice before flagging anything — default caps on known-human text manufacture false positives.
+Counting rules and the read-forward requirement are in `references/audit-rubrics.md`.
+
+**There is no numeric score, deliberately.** An earlier version of this skill summed weighted categories to a 0–10 scale with a "ship at ≤2" threshold. That was the apparatus tell in the instrument itself: `references/master-list.md` PART D holds that absolute scores don't replicate — the same text drew 6.18 and 7.64 from fresh judges, a swing that flipped a shipping verdict — and prescribes counted failures over any absolute number. An auditor counting INTERCHANGEABLE units replicates no better. The count is the useful artifact; the sum was decoration, and precision beyond what the measurement supports is the exact failure this skill flags in other people's documents.
+
+**The verdict is a route, not a number.** One of:
+- **Ship** — no piece-level failure fired, and every span still flagged has a stated reason for staying.
+- **Fix these** — a named list of spans, each with the failure and an in-voice replacement.
+- **Rewrite the argument** — a piece-level VOICED or INSIGHT failure fired. Span surgery won't reach it. Say so plainly: *"this is a summary; it needs a point of view before it needs edits."*
+
+**Maximum two fix passes**, then ship or escalate — past that you're sanding, and sanded text is its own tell. Quoted/cited material is immune, and so are the author's signature shapes (see tells.md §protected shapes). In AUDIT mode, establish whose text it is and bind THAT voice before flagging anything — default caps on known-human text manufacture false positives.
 
 ## Layer 4 — FIT (replace toward the voice, never toward neutral)
 
@@ -157,7 +166,8 @@ WATERSHED: house voice = references/watershed-ece-voice.md, always bound, read f
 FEED: specifics are load-bearing. GENERATE: 3-5 candidates, distrust the most
 probable, write AS the voice. GATE: 5Q audit (interchangeable/additive/shaped/
 voiced/insight) + tell CLUSTERS (1 tell = noise, 3 in 100w = rewrite). Voice sets
-the caps, not a global banlist. Score before/after, ship <=2, max 2 passes.
+the caps, not a global banlist. Count findings before/after, verdict not score,
+max 2 passes.
 INSIGHT: naming a trend is summary. Say why, what caused it, where it leads, or
 what to do. Advisor, not observer. BLUF. Detail to the appendix.
 FIT: replace flagged spans with the author's own moves. Keep their mess --
