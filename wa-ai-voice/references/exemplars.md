@@ -1,6 +1,6 @@
 # Exemplars — Watershed work product that hits the bar
 
-Three published deliverables. Unlike `anti-examples.md`, these are external documents, so client and state names stay: the specificity is the point being demonstrated.
+Three published deliverables. Unlike `anti-examples.md`, these are external documents and the engagements are named with permission confirmed, so client and state names stay: the specificity is the point being demonstrated.
 
 Read this file before auditing. The anti-examples set a floor; these set the target, and they are the source of every observed rate in `watershed-ece-voice.md` Part 3, and of the "works" half of every pair in Parts 1 and 2.
 
